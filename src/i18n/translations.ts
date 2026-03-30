@@ -1,0 +1,216 @@
+export type Language = 'ro' | 'en';
+
+export const translations = {
+  ro: {
+    nav: {
+      home: 'Acasă',
+      services: 'Servicii',
+      about: 'Despre noi',
+      contact: 'Contact',
+    },
+    hero: {
+      badge: 'Transport Rutier de Încredere',
+      title: 'Livrăm siguranță,',
+      titleAccent: 'oriunde în Europa',
+      subtitle:
+        'Firma noastră oferă servicii profesionale de transport marfă cu camioane, atât pe plan intern cât și internațional. Promptitudine, siguranță și seriozitate în fiecare cursă.',
+      cta: 'Solicită ofertă',
+      ctaSecondary: 'Află mai mult',
+      stat1Value: '15+',
+      stat1Label: 'Ani experiență',
+      stat2Value: '500+',
+      stat2Label: 'Clienți mulțumiți',
+      stat3Value: '50+',
+      stat3Label: 'Camioane în flotă',
+    },
+    services: {
+      badge: 'Ce oferim',
+      title: 'Serviciile noastre',
+      subtitle: 'Oferim soluții complete de transport adaptate nevoilor afacerii tale.',
+      items: [
+        {
+          title: 'Transport Intern',
+          description:
+            'Acoperire națională completă. Livrăm marfa ta în orice colț al României, rapid și în siguranță.',
+        },
+        {
+          title: 'Transport Internațional',
+          description:
+            'Rute spre toată Europa. Avem experiență vastă în transportul transfrontalier de mărfuri.',
+        },
+        {
+          title: 'Transport Frigorific',
+          description:
+            'Camioane frigorifice specializate pentru produse care necesită temperaturi controlate.',
+        },
+        {
+          title: 'Grupaj Marfă',
+          description:
+            'Soluții de grupaj pentru cantități mai mici. Plătești doar pentru spațiul utilizat.',
+        },
+        {
+          title: 'Transport Agabaritic',
+          description:
+            'Transportăm încărcături speciale și depășite, cu toate autorizațiile necesare.',
+        },
+        {
+          title: 'Logistică & Depozitare',
+          description:
+            'Servicii integrate de logistică, inclusiv depozitare temporară și gestionare stocuri.',
+        },
+      ],
+    },
+    about: {
+      badge: 'Povestea noastră',
+      title: 'Despre noi',
+      subtitle:
+        'Suntem o companie de transport cu tradiție, fondată cu scopul de a oferi servicii de calitate superioară.',
+      description1:
+        'Cu peste 15 ani de experiență în industria transporturilor, am construit o reputație solidă bazată pe seriozitate, punctualitate și profesionalism. Flota noastră modernă de camioane este dotată cu ultimele tehnologii GPS și sisteme de monitorizare în timp real.',
+      description2:
+        'Echipa noastră de șoferi profesioniști și personal calificat asigură că fiecare transport se desfășoară în condiții optime, respectând toate reglementările în vigoare.',
+      feature1: 'Monitorizare GPS în timp real',
+      feature2: 'Flotă modernă și certificată',
+      feature3: 'Echipă cu experiență vastă',
+      feature4: 'Acoperire națională și internațională',
+    },
+    contact: {
+      badge: 'Hai să vorbim',
+      title: 'Contact',
+      subtitle: 'Contactează-ne pentru o ofertă personalizată sau orice întrebare.',
+      form: {
+        name: 'Nume complet',
+        namePlaceholder: 'Ion Popescu',
+        email: 'Adresă email',
+        emailPlaceholder: 'ion@exemplu.ro',
+        phone: 'Telefon',
+        phonePlaceholder: '+40 700 000 000',
+        message: 'Mesaj',
+        messagePlaceholder: 'Descrie traseul, tipul de marfă și cantitatea...',
+        submit: 'Trimite mesajul',
+        sending: 'Se trimite...',
+        success: 'Mesaj trimis cu succes! Te vom contacta în curând.',
+      },
+      info: {
+        title: 'Informații de contact',
+        address: 'Strada Transportatorilor 12, București, România',
+        phone: '+40 700 000 000',
+        email: 'office@transcargo.ro',
+        schedule: 'Lun - Vin: 08:00 - 18:00',
+      },
+    },
+    footer: {
+      description: 'Transport rutier de calitate în România și Europa.',
+      rights: 'Toate drepturile rezervate.',
+      links: 'Link-uri utile',
+      contact: 'Contact',
+    },
+  },
+  en: {
+    nav: {
+      home: 'Home',
+      services: 'Services',
+      about: 'About Us',
+      contact: 'Contact',
+    },
+    hero: {
+      badge: 'Trusted Road Transport',
+      title: 'We deliver safety,',
+      titleAccent: 'anywhere in Europe',
+      subtitle:
+        'Our company provides professional freight transport services with trucks, both domestically and internationally. Promptness, safety and reliability in every journey.',
+      cta: 'Request a quote',
+      ctaSecondary: 'Learn more',
+      stat1Value: '15+',
+      stat1Label: 'Years experience',
+      stat2Value: '500+',
+      stat2Label: 'Happy clients',
+      stat3Value: '50+',
+      stat3Label: 'Trucks in fleet',
+    },
+    services: {
+      badge: 'What we offer',
+      title: 'Our Services',
+      subtitle: 'We offer complete transport solutions tailored to your business needs.',
+      items: [
+        {
+          title: 'Domestic Transport',
+          description:
+            'Full national coverage. We deliver your cargo to any corner of Romania, quickly and safely.',
+        },
+        {
+          title: 'International Transport',
+          description:
+            'Routes across all of Europe. We have extensive experience in cross-border freight transport.',
+        },
+        {
+          title: 'Refrigerated Transport',
+          description:
+            'Specialized refrigerated trucks for products requiring controlled temperatures.',
+        },
+        {
+          title: 'Groupage Freight',
+          description:
+            'Groupage solutions for smaller quantities. You only pay for the space you use.',
+        },
+        {
+          title: 'Oversized Transport',
+          description:
+            'We transport special and oversized loads, with all necessary permits.',
+        },
+        {
+          title: 'Logistics & Storage',
+          description:
+            'Integrated logistics services, including temporary storage and inventory management.',
+        },
+      ],
+    },
+    about: {
+      badge: 'Our story',
+      title: 'About Us',
+      subtitle:
+        'We are a traditional transport company, founded with the goal of offering superior quality services.',
+      description1:
+        'With over 15 years of experience in the transport industry, we have built a solid reputation based on reliability, punctuality and professionalism. Our modern fleet of trucks is equipped with the latest GPS technologies and real-time monitoring systems.',
+      description2:
+        'Our team of professional drivers and qualified staff ensures that every transport takes place under optimal conditions, complying with all applicable regulations.',
+      feature1: 'Real-time GPS monitoring',
+      feature2: 'Modern and certified fleet',
+      feature3: 'Team with extensive experience',
+      feature4: 'National and international coverage',
+    },
+    contact: {
+      badge: "Let's talk",
+      title: 'Contact',
+      subtitle: 'Contact us for a personalized offer or any questions.',
+      form: {
+        name: 'Full name',
+        namePlaceholder: 'John Doe',
+        email: 'Email address',
+        emailPlaceholder: 'john@example.com',
+        phone: 'Phone',
+        phonePlaceholder: '+40 700 000 000',
+        message: 'Message',
+        messagePlaceholder: 'Describe the route, type of cargo and quantity...',
+        submit: 'Send message',
+        sending: 'Sending...',
+        success: 'Message sent successfully! We will contact you soon.',
+      },
+      info: {
+        title: 'Contact information',
+        address: '12 Transporters Street, Bucharest, Romania',
+        phone: '+40 700 000 000',
+        email: 'office@transcargo.ro',
+        schedule: 'Mon - Fri: 08:00 - 18:00',
+      },
+    },
+    footer: {
+      description: 'Quality road transport in Romania and Europe.',
+      rights: 'All rights reserved.',
+      links: 'Quick links',
+      contact: 'Contact',
+    },
+  },
+};
+
+export type Translations = typeof translations.ro;
